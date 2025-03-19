@@ -1,0 +1,2 @@
+# 这是一个python+pytest+requests封装的接口自动化测试项目;
+# 接口来源为自行使用SpringBoot快速开发的简单接口;
