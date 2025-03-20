@@ -18,7 +18,7 @@ public class UserService {
     public Integer deleteUser(Integer id) {
         User user = map.remove(id);
         //1为删除成功 否则为0（不存在）
-        return user == null ? 1 : 0;
+        return user == null ? 0 : 1;
     }
 
     //更新user put请求 传json
